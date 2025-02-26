@@ -1,4 +1,4 @@
-# The Docker image that will be used to build your app
+# The Docker image that will be used to build your app OK
 image: node:lts
 
 before_script:
