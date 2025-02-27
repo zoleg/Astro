@@ -1,10 +1,12 @@
+import { defineConfig } from 'astro/config'
+
 export default {
   // projectRoot: '.',     // Where to resolve all URLs relative to. Useful if you have a monorepo project.
   // pages: './src/pages', // Path to Astro components, pages, and data
   
   buildOptions: {
     site: 'https://zoleg.github.io',           // Your public domain, e.g.: https://my-site.dev/. Used to generate sitemaps and canonical URLs.
-    sitemap: true,         // Generate sitemap (set to "false" to disable)
+    base: 'Astro',         // Generate sitemap (set to "false" to disable)
   },
   devOptions: {
     hostname: 'localhost',  // The hostname to run the dev server on.
